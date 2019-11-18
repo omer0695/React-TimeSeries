@@ -1,0 +1,83 @@
+.scalableApp div {
+  float: left;
+}
+.scalableApp a {
+  text-decoration: none;
+  color: #4a4e69;
+}
+
+body{
+  background-color: #F9FBFD;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  color: #4a4e69;
+}
+.scalableApp{
+  background-color: white;
+  width: 700px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 550px;
+  margin: 25px;
+}
+.topMenu{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.topMenu p {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: -1px;
+}
+.topMenu p a {
+  padding: 18px 80px 18px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  display: inline-block;
+}
+.topMenu p a:hover, .topMenu p a.is-active {
+  text-decoration: none;
+  border-bottom: 1px solid #2c7be5;
+  color: #2c7be5;
+}
+.dropdownGroup{
+  background-color: #F0F3FF;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.dropdown span{
+  padding: 0 4px 0 10px;
+}
+.dropdown{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.dropdown select{
+  padding: 4px 12px;
+  margin-right: 60px;
+}
+thead th{
+  text-transform: capitalize;
+}
+table th, table td{
+  width: 30%;
+  border-bottom: 1px solid #ddd;
+  padding: 4px 50px 4px 10px;
+  text-align: left;
+}
+table tr:last-child td{
+  border: none;
+}
+table td{
+  font-size: 14px;
+}
+table th:first-child, table td:first-child{
+  width: 10%;
+}
+table{
+  width: 100%;
+}
+.clear{
+  clear: both;
+}
